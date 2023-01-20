@@ -28,7 +28,7 @@ layout: default
 
   <div class="post-content e-content" itemprop="articleBody">
     <hr/>
-    {% include jekyll-toc.html html=content %}
+    {% include jekyll-toc.html html=content sanitize=true class="inline_toc" id="toc" h_min=2 h_max=3 %}
     <hr/>
     {{ content }}
   </div>
